@@ -25,6 +25,9 @@ public class AI {
                 String date = dateFormat.format(new Date());
                 answer.add("Сегодня " + date);
                 break;
+            case "какие у меня планы":
+                answer.add("Вы планировали не умереть сегодня");
+                break;
             default:
                 answer.add("Я вас не понимаю");
                 break;
