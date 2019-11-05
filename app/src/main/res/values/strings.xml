@@ -3,4 +3,5 @@
     <string name="chatView">>>Привет</string>
     <string name="questionText">Введите ваш вопрос</string>
     <string name="sendButton">Отправить</string>
+    <string name="turnOnAI">Включить Искуственный Интеллект</string>
 </resources>
