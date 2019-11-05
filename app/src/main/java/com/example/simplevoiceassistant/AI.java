@@ -20,11 +20,11 @@ public class AI {
             case "как дела":
                 answer.add("Всё впорядке, а ваша жизнь не рушится?");
                 break;
-//            case "какой сегодня день":
-//                SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy");
-//                String date = dateFormat.format(new Date());
-//                answer.add("Сегодня " + date);
-//                break;
+            case "какой сегодня день":
+                SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy");
+                String date = dateFormat.format(new Date());
+                answer.add("Сегодня " + date);
+                break;
             default:
                 answer.add("Я вас не понимаю");
                 break;
